@@ -2,12 +2,12 @@
 using namespace std;
 int fact (int n)
 {
-	int ans=1;
+	int answer=1;
 	for (int i=1;i<=n;i++)
 	{
-		ans*=i;
+		answer*=i;
 	}
-	return ans;
+	return answer;
 }
 int main ()
 {
